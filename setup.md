@@ -19,4 +19,4 @@
 
 # Already deployed to the server.
 Frontend Hosted on netlify and backend on Render.
-Here is the link wher you can access: https://coruscating-sunflower-2ea1e4.netlify.app/
+Here is the link wher you can access: https://url-shortner01.netlify.app/

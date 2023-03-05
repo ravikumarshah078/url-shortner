@@ -1,9 +1,15 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import { axiosIntance } from "../config";
 import ViewUrlComponent from './ViewUrlComponent';
 
+
 const AddUrlComponent = ({ userId }) => {
     const [url, setUrl] = useState("");
+    const navigate = useNavigate();
+
+    if(!userId)
+      navigate("/");
 
     const onSubmit = (e)=> {
         e.preventDefault();
