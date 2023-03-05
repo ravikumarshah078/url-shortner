@@ -1,9 +1,4 @@
 # set-up for local machine
-# To run front-end applications
-    open terminal in folder
-        - cd ./client
-        - run command to install package: npm install
-        - run command: npm start
 
 # to run back-end applications
     open terminal in folder
@@ -15,6 +10,14 @@
                 PORT = 3001
         - run command to install package: npm install
         - run command: npm start
+
+
+# To run front-end applications
+    open terminal in folder
+        - cd ./client
+        - run command to install package: npm install
+        - run command: npm start
+
             
 
 # Already deployed to the server.
