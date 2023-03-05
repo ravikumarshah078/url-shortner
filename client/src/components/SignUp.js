@@ -39,7 +39,7 @@ const SignUp = ( { setIsLoggedIn, setUserId } ) => {
               value={email}
               onChange={e => setEmail(e.target.value)}
             />
-            <div class="d-grid gap-2 col-6 mx-auto">
+            <div className="d-grid gap-2 col-6 mx-auto">
             <button type="submit" className="btn btn-primary m-5">
               {btnText}
             </button>
