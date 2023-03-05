@@ -11,7 +11,7 @@ const ViewUrlComponent= ({ userId }) => {
         setUrls(result.data);
       };
       fetchUrlAndSetUrl();
-    }, [userId]);
+    }, [userId, urls]);
 
   return (
     <div>
