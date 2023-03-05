@@ -14,4 +14,13 @@
         Brief Description: If the user clicks on the shorten urls he will be redirected to the original url.
 
     Api's: 
-        
+        - /signup:
+            use to sign up with the user's email address.
+         
+        - /:userId/all
+            return the all urls added by the user.
+
+        - /:urlId
+            redirect to the Original URL.
+
+Reason behind the using mongoDB. Because mongoDB is faster then the other database.
